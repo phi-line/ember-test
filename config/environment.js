@@ -48,6 +48,9 @@ module.exports = function(environment) {
     ENV['ember-cli-mirage'] = {
       enabled: true
     }
+
+    ENV.baseURL = 'phi-line.github.io/ember-test/'; // make sure to use the actual name of your
+    project
   }
 
   return ENV;
